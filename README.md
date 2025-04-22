@@ -1,7 +1,7 @@
 # Cars-DVM-Dataset-ViT
 A fun implementation of the Vision Transformer model trained to classify cars using the DVM-Cars-Dataset.
 
-I achieved a 44% test accuracy using only 0.35% of the total dataset. I could only use such a small subset due to the restrictions on GPU training in the Google Colab free tier. I'm confident that the test accuracy would drastically improve with a higher sample size.
+I achieved a 44% test accuracy using only 0.35% of the total dataset. I could only use such a small subset due to the restrictions on GPU training in the Google Colab free tier. I'm confident that the test accuracy would drastically improve with a higher sample size. Furthermore, I noticed that most the errors that resulted in misclassification were minor ones, for instance missclassify an 2018 BMW m4 as a 2017 BMW m4.
 
 DVM Cars Paper Citation:
 Jingming Huang, Bowei Chen, Lan Luo, Shigang Yue, and Iadh Ounis. (2022). "DVM-CAR: A large-scale automotive dataset for visual marketing research and applications". In Proceedings of IEEE International Conference on Big Data, pp.4130–4137. 
